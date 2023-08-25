@@ -1,0 +1,24 @@
+{
+  "name": "ch2",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/main/javascript/index.js",
+  "targets": {
+    "default": {
+      "distDir": "target/classes/static"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "parcel": "^2.4.0",
+    "react": "^18.2.0",
+    "reactdom": "^2.0.0"
+  }
+}

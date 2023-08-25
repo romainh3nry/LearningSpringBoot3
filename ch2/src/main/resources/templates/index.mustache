@@ -1,0 +1,12 @@
+<h1>Hello World</h1>
+
+<ul>
+    {{#videos}}
+        <li>{{name}}</li>
+    {{/videos}}
+</ul>
+
+<form action="/new-video" method="post">
+    <input type="text" name="name" />
+    <button type="submit">Submit</button>
+</form>
