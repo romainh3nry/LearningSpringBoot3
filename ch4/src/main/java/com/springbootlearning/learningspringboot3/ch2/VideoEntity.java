@@ -10,15 +10,17 @@ import lombok.Data;
 @Entity
 public class VideoEntity {
     private @Id @GeneratedValue Long id;
+    private String username;
     private String name;
     private String description;
 
     protected VideoEntity() {
-        this(null, null);
+        this(null, null, null);
     }
 
-    VideoEntity(String name, String description) {
+    VideoEntity(String username, String name, String description) {
         this.id = null;
+        this.username = username;
         this.description = description;
         this.name = name;
     }
